@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "vite-plugin-singlefile": "^1.0.0"
   }
 }
