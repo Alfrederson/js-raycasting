@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raycaster</title>
+    <style>
+      body{
+        background-color: black;
+        font-family: monospace;
+        color: #FFBF00;
+      }
+      #app {
+        font-family: monospace;
+        white-space: pre;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top:auto;
+        margin-bottom: auto;
+        width: fit-content;
+        z-index:2;
+        font-size: smaller;
+        text-shadow: 0 0 3px  #FFBFFF, 0 0 10px  #FFBF00;
+      }
+      #minimap {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="minimap" width="380" height="170"></canvas>
+    <div id="debug"></div>
+    <div id="app"></div>
+    <h3>1988 AMBER MONOCHROME STYLE</h3>
+    <p>ISSO NUNCA VAI SER RESPONSIVO</p>
+    <p>W S = anda pra frente e pra trás.</p>
+    <p>A D = vira pra esquerda e direita</p>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
